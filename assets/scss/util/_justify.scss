@@ -1,6 +1,0 @@
-@each $value in $justify {
-  .justify--#{$value} {
-    display: flex;
-    justify-content: #{$value};
-  }
-}
