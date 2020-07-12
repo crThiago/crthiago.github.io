@@ -1,0 +1,48 @@
+$primary: #41B883;
+$secondary: #35495E;
+
+$white: #fff;
+$gray: #4f5959;
+
+$colors: (
+    'primary': $primary,
+    'secondary': $secondary,
+    'white': $white,
+    'gray': $gray
+);
+
+// FONT SIZE
+$font-sum: 0.5em;
+$small: 0.8em;
+$h3: 1.5em;
+$h2: $h3 + $font-sum;
+$h1: $h2 + $font-sum;
+
+@debug $h1;
+$fonts-size: (
+  'small': $small,
+  'h3':     $h3,
+  'h2':     $h2,
+  'h1':     $h1
+);
+
+// DISPLAYS
+$displays: (
+  'inline',
+  'inline-block',
+  'block',
+  'flex',
+  'inline-flex'
+);
+
+$text-aligns: (
+  'center',
+  'right',
+  'left'
+);
+
+$justify: (
+  'space-between',
+  'center',
+  'space-around'
+)
